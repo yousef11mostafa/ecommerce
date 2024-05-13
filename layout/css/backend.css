@@ -1,0 +1,69 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+   }
+   
+   body{
+       margin:0;
+       padding:0;
+   }
+   ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+   }
+
+   .login-form{
+    max-width:400px;
+    margin: 20px auto ;
+   }
+   .logintext {
+    font-weight: 900;
+    color:#aaa;
+    text-align: center;
+    margin-top:30px;
+   }
+   .selected-form{
+    display: none;
+   }
+   .logintext .selected{
+    color: green;
+   }
+   .form-group{
+    position: relative;
+   }
+   .form-group i{
+    position: absolute;
+    right:20px;
+    top:0;
+    color:red;
+   }
+
+/* start categories */
+
+.card {
+    position: relative;
+}
+.card .price{
+    position: absolute;
+    display: inline-block;
+    min-width:50px;
+    padding:5px;
+    background-color: #eee;
+    top:0;
+    left:0;
+    text-align:center;
+}
+
+/* end categories */
+   
+
+/* start profile */
+
+.information li span:nth-child(1){
+    display: inline-block;
+    width:130px;
+}
+
+/* end profile */
